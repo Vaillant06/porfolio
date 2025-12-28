@@ -49,8 +49,11 @@ LinkedIn — (https://www.linkedin.com/in/sreenath-g-81414a326/)
 
 ## 🚀 Setup & Run
 git clone https://github.com/Vaillant06/portfolio
+
 cd portfolio
+
 npm install
+
 npm run dev
 
 
