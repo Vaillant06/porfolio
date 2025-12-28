@@ -61,3 +61,6 @@ npm run dev
 
 This project is open for reference.
 Please don’t clone and re-publish it as your own portfolio.
+
+### Thanks for checking out my work!
+### If you have feedback or suggestions, I’m always open to hearing them.
