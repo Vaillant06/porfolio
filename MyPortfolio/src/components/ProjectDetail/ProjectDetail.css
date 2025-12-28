@@ -1,0 +1,23 @@
+.project-detail-container {
+    color: white;
+    border: 3px solid var(--primary-orange);
+    background: linear-gradient(180deg, #1f1f1f, #111);
+    padding-bottom: 1.5rem; /* reduced for balance */
+  }
+  
+  .detail-title {
+    color: var(--energy-purple);
+    text-shadow: 0 0 6px rgba(155, 93, 229, 0.4); /* matched purple tone */
+  }
+  
+  .detail-header {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+  
+  @media (min-width: 992px) {
+    .project-detail-container {
+      padding: 3rem;
+    }
+  }
+  

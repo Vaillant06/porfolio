@@ -1,0 +1,10 @@
+:root {
+  --primary-orange: #FF7A00;
+  --energy-purple: #9B5DE5;
+  --bg-dark: #0D0D0D;
+}
+
+#projects {
+  background-color: var(--bg-dark);
+  min-height: 100vh; 
+}

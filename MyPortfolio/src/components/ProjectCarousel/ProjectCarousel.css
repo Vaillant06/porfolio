@@ -1,0 +1,18 @@
+.carousel {
+    border: none;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(50%) sepia(90%) saturate(2000%) hue-rotate(358deg);
+  }
+  
+  .carousel-indicators [data-bs-target] {
+    background-color: #ffe9cc;
+  }
+  
+  .carousel-indicators .active {
+    background-color: var(--primary-orange);
+  }
+
+  

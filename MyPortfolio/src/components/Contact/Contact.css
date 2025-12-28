@@ -1,0 +1,31 @@
+.contact-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.4rem;
+    border-radius: 14px;
+    background: #141414;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    font-size: 1.2rem;
+    transition: all 0.25s ease;
+    text-decoration: none;
+  }
+  
+  .contact-box:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0 14px rgba(155, 93, 229, 0.45);
+    border-color: var(--energy-purple);
+  }
+  
+  .contact-icon {
+    font-size: 2rem;
+    margin-bottom: 0.6rem;
+    color: var(--primary-orange);
+    transition: color .25s ease;
+  }
+  
+  .contact-box:hover .contact-icon {
+    color: var(--energy-purple);
+  }
+  

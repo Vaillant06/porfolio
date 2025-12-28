@@ -1,0 +1,84 @@
+html {
+    scroll-behavior: smooth;
+}
+  
+
+.primary {
+    color: white;
+    background-color: #FF7A00;
+    border: #FF7A00;
+}
+
+.primary:hover {
+    color:white;
+    background-color: #d36702;
+    border: #d36702;
+}
+
+.secondary {
+    color: white;
+    background-color: #9B5DE5;
+    border-color: #9B5DE5;
+
+}
+
+.secondary:hover {
+    background-color: #6b34ad;
+}
+
+@keyframes fadeUp {
+    0% {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeRight {
+    0% {
+        opacity: 0;
+        transform: translateX(40px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-40px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.fade-in-up {
+    opacity: 0;
+    animation: fadeUp 1.1s ease forwards;
+}
+
+.fade-in-right {
+    opacity: 0;
+    animation: fadeRight 1.1s ease forwards;
+}
+
+.fade-in-left {
+    opacity: 0;
+    animation: fadeLeft 1.1s ease forwards;
+}
+
+.delay-1 {
+    animation-delay: 0.5s;
+}
+
+.delay-2 {
+    animation-delay: 0.9s;
+}

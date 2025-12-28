@@ -1,0 +1,29 @@
+.resume-subtitle {
+    color: var(--primary-orange);
+    margin-bottom: 1rem;
+}
+
+.resume-subtitle:hover {
+  color: var(--energy-purple);
+}
+  
+.resume-list li {
+    color: white;
+    font-size: 1.15rem;
+    margin-bottom: 0.6rem;
+}
+  
+.resume-block {
+  background: #141414;
+  padding: 1.8rem;
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.08);
+  transition: transform .25s ease, box-shadow .25s ease;
+  min-height:280px;
+}
+
+.resume-block:hover {
+  transform: translateY(-6px);
+  border-color: var(--energy-purple);
+  box-shadow: 0 0 18px rgba(129, 25, 255, 0.35);
+}
