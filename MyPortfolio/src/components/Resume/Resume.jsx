@@ -28,9 +28,9 @@ export default function Resume() {
               <h3 className="resume-subtitle">Skills</h3>
               <ul className="resume-list">
                 <li>Java, C, Python</li>
-                <li>Flask, React</li>
+                <li>Flask, React, Bootstrap,</li>
                 <li>OpenCV, TensorFlow</li>
-                <li>Bootstrap, PostgreSQL, SQLite</li>
+                <li> PostgreSQL, Oracle, SQLite</li>
               </ul>
             </div>
           </div>
