@@ -31,11 +31,12 @@ GitHub Pages / Vercel — deployment (planned)
 
 ####  Real Time Crack Detection System
 
-### Complaint Management System
+#### Complaint Management System
 
-### Personalized Expense Tracker
+#### Personalized Expense Tracker
 
 Each project page includes a short description, screenshots, tech stack, and a link to the source code.
+
 
 ## 📬 Contact
 
@@ -45,11 +46,13 @@ Email — sreenath2410530@ssn.edu.in
 
 LinkedIn — (https://www.linkedin.com/in/sreenath-g-81414a326/)
 
+
 ## 🚀 Setup & Run
 git clone https://github.com/Vaillant06/portfolio
 cd portfolio
 npm install
 npm run dev
+
 
 ## © License
 
