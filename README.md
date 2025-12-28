@@ -31,9 +31,9 @@ GitHub Pages / Vercel — deployment (planned)
 
 ####  Real Time Crack Detection System
 
-#### Complaint Management System
+####  Complaint Management System
 
-#### Personalized Expense Tracker
+####  Personalized Expense Tracker
 
 Each project page includes a short description, screenshots, tech stack, and a link to the source code.
 
