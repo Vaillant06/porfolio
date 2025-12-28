@@ -7,12 +7,14 @@ I built this to create a space where I can keep track of what I’m working on a
 
 Coming soon
 
+
 ## ✨ About
 
 I’m currently pursuing B.Tech IT and actively building projects in full-stack development and machine learning.
 The goal of this portfolio is simple — show what I’ve built and what I’m capable of, instead of only talking about it.
 
 I update the site whenever I complete a new project or earn a certification.
+
 
 ## 🛠 Tech Stack
 
@@ -24,9 +26,10 @@ JavaScript, HTML, CSS — core frontend
 
 GitHub Pages / Vercel — deployment (planned)
 
+
 ## 📁 Projects Featured
 
-### Real Time Crack Detection System
+####  Real Time Crack Detection System
 
 ### Complaint Management System
 
