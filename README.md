@@ -1,4 +1,4 @@
-My Portfolio
+#My Portfolio
 
 This is my personal portfolio website where I share my projects, skills, and background as a software developer.
 I built this to create a space where I can keep track of what I’m working on and make it easier for others to explore my work.
