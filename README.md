@@ -5,7 +5,8 @@ I built this to create a space where I can keep track of what I’m working on a
 
 ## 🔗 Live Link
 
-Coming soon
+[Coming soon](https://portfolio-sreenath.vercel.app
+)
 
 
 ## ✨ About
