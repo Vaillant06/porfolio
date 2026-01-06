@@ -41,8 +41,8 @@ export default function Resume() {
               <h3 className="resume-subtitle">Certifications</h3>
               <ul className="resume-list">
                 <li>Full-Stack Web Development (Java) — DevTown (Nov 2024)</li>
-                <li>Agentic AI  Mini Contest (July 2025)</li>
                 <li>CodSoft Online Internship (June 2025)</li>
+                <li>Agentic AI  Mini Contest (July 2025)</li>
               </ul>
             </div>
           </div>
