@@ -19,7 +19,7 @@
   border-radius: 16px;
   border: 1px solid rgba(255,255,255,0.08);
   transition: transform .25s ease, box-shadow .25s ease;
-  min-height:300px;
+  min-height:350px;
 }
 
 .resume-block:hover {
