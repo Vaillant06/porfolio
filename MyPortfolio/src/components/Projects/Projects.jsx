@@ -23,6 +23,20 @@ export default function Projects() {
     },
     {
       id: 2,
+      title: "Real Time License Plate Detection System",
+      description:
+        "Real Time Detecting License Plates of vehicles using ML + CV for security and monitoring purposes.",
+      tech: ["Python", "OpenCV", "TensorFlow"],
+      repo : "https://github.com/Vaillant06/LicensePlateDetection",
+      images: ["/images/LicensePlate01.png",
+        "/images/LicensePlate02.png",
+        "/images/LicensePlate03.png",
+        "/images/LicensePlate04.png",
+        "/images/LicensePlate05.png"
+      ]
+    },
+    {
+      id: 3,
       title: "Complaint Management System",
       description:
         "Platform for reporting & resolving intra-community issues with transparency.",
@@ -37,7 +51,7 @@ export default function Projects() {
       ]
     },
     {
-      id: 3,
+      id: 4,
       title: "Personalized Expense Tracker",
       description:
         "Personalized application helpful for college students to view and maintain their expenses.",
