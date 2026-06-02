@@ -25,7 +25,7 @@ Bootstrap — layout, responsive design
 
 JavaScript, HTML, CSS — core frontend
 
-GitHub Pages / Vercel — deployment (planned)
+GitHub Pages / Vercel — deployment
 
 
 ## 📁 Projects Featured
