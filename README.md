@@ -44,7 +44,7 @@ If you want to reach out for collaboration, internship opportunities, or just to
 
 Email — sreenath2410530@ssn.edu.in
 
-LinkedIn — https://www.linkedin.com/in/sreenath-g-81414a326/
+LinkedIn — (https://www.linkedin.com/in/sreeg06/)
 
 
 ## 🚀 Setup & Run
