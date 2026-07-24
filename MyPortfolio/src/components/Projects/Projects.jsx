@@ -8,7 +8,22 @@ import ProjectDetail from "../ProjectDetail/ProjectDetail";
 export default function Projects() {
   const projects = [
     {
-      id: 1,
+      id:5,
+      title: "Quick Connect - Volunteer Matching Platform",
+      description:
+        "Designed and developed a full-stack platform enabling NGOs to connect with volunteers through intelligent skill, availability and location-based matching.",
+      tech: ["FastAPI", "React", "PostgreSQL"],
+      repo: "https://github.com/Vaillant06/QuickConnect",
+      liveDemo: "https://quick-connect-zeta.vercel.app/",
+      images:[
+        "/images/QC1.png",
+        "/images/QC2.png",
+        "/images/QC3.png",
+        "/images/QC4.png"
+      ]  
+    },
+    {
+      id: 2,
       title: "Real Time Crack Detection System",
       description:
         "Real Time Detecting cracks in concrete as well as roads using ML + CV to support early maintenance decisions.",
@@ -22,7 +37,7 @@ export default function Projects() {
       ]
     },
     {
-      id: 2,
+      id: 3,
       title: "Real Time License Plate Detection System",
       description:
         "Real Time Detecting License Plates of vehicles using ML + CV for security and monitoring purposes.",
@@ -36,7 +51,7 @@ export default function Projects() {
       ]
     },
     {
-      id: 3,
+      id: 4,
       title: "Complaint Management System",
       description:
         "Platform for reporting & resolving intra-community issues with transparency.",
@@ -51,7 +66,7 @@ export default function Projects() {
       ]
     },
     {
-      id: 4,
+      id: 5,
       title: "Personalized Expense Tracker",
       description:
         "Personalized application helpful for college students to view and maintain their expenses.",

@@ -29,6 +29,20 @@ export default function ProjectDetail({ project, refProp, onClose }) {
                 <li key={i} className="fs-5">{item}</li>
               ))}
             </ul>
+            
+            {project.liveDemo && (<>
+            <h4 className="fw-bold">Live Demo</h4>
+            <a
+                href={project.liveDemo}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn primary mt-2 mb-5 px-4"
+            >
+              <i className="bi bi-lightbulb me-2"></i>
+                Live Demo
+            </a>
+            </>
+            )}
 
             <h4 className="fw-bold">GitHub Repository</h4>
             {project.repo && (<>
