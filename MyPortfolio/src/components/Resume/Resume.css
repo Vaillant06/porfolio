@@ -6,24 +6,57 @@
 .resume-subtitle:hover {
   color: var(--energy-purple);
 }
-  
+
 .resume-list li {
     color: white;
     font-size: 1.15rem;
     margin-bottom: 0.6rem;
 }
-  
+
 .resume-block {
   background: #141414;
   padding: 1.8rem;
   border-radius: 16px;
   border: 1px solid rgba(255,255,255,0.08);
   transition: transform .25s ease, box-shadow .25s ease;
-  min-height:350px;
+  min-height: 250px;
 }
 
 .resume-block:hover {
   transform: translateY(-6px);
   border-color: var(--energy-purple);
   box-shadow: 0 0 18px rgba(129, 25, 255, 0.35);
+}
+
+.skills-block {
+  min-height: auto;
+}
+
+.skills-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+}
+
+.skill-tag {
+  display: inline-block;
+  padding: 0.45rem 1.3rem;
+  border-radius: 50px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #fff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: default;
+}
+
+.skill-tag:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+}
+
+@media (max-width: 768px) {
+  .skill-tag {
+    font-size: 0.85rem;
+    padding: 0.35rem 1rem;
+  }
 }

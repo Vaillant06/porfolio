@@ -39,7 +39,7 @@ export default function Contact() {
             </a>
             </div>
 
-            <footer class="text-center text-light py-3">
+            <footer className="text-center text-light py-3">
             © 2026 SREENATH — ALL RIGHTS RESEVRVED.
             </footer>
 
