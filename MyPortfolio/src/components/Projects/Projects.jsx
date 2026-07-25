@@ -5,84 +5,11 @@ import ScrollReveal from "../ScrollReveal/ScrollReveal";
 import ProjectCard from "../ProjectCard/ProjectCard";
 import ProjectDetail from "../ProjectDetail/ProjectDetail";
 
-export default function Projects() {
-  const projects = [
-    {
-      id:5,
-      title: "Quick Connect - Volunteer Matching Platform",
-      description:
-        "Designed and developed a full-stack platform enabling NGOs to connect with volunteers through intelligent skill, availability and location-based matching.",
-      tech: ["FastAPI", "React", "PostgreSQL"],
-      repo: "https://github.com/Vaillant06/QuickConnect",
-      liveDemo: "https://quick-connect-zeta.vercel.app/",
-      images:[
-        "/images/QC1.png",
-        "/images/QC2.png",
-        "/images/QC3.png",
-        "/images/QC4.png"
-      ]  
-    },
-    {
-      id: 2,
-      title: "Real Time Crack Detection System",
-      description:
-        "Real Time Detecting cracks in concrete as well as roads using ML + CV to support early maintenance decisions.",
-      tech: ["Python", "OpenCV", "TensorFlow", "Flask"],
-      repo : "https://github.com/Vaillant06/Crack_Detection",
-      images: ["/images/crackDetection01.jpg", 
-        "/images/crackDetection02.jpg", 
-        "/images/crackDetection03.jpg",
-        "/images/crackDetection04.jpg",
-        "/images/crackDetection05.jpg"
-      ]
-    },
-    {
-      id: 3,
-      title: "Real Time License Plate Detection System",
-      description:
-        "Real Time Detecting License Plates of vehicles using ML + CV for security and monitoring purposes.",
-      tech: ["Python", "OpenCV", "TensorFlow"],
-      repo : "https://github.com/Vaillant06/LicensePlateDetection",
-      images: ["/images/LicensePlate01.png",
-        "/images/LicensePlate02.png",
-        "/images/LicensePlate03.png",
-        "/images/LicensePlate04.png",
-        "/images/LicensePlate05.png"
-      ]
-    },
-    {
-      id: 4,
-      title: "Complaint Management System",
-      description:
-        "Platform for reporting & resolving intra-community issues with transparency.",
-      tech: ["Flask", "PostgreSQL", "Bootstrap"],
-      repo : "https://github.com/Vaillant06/ComplaintManagementSystem",
-      images: [
-        "/images/cmsAdminDashboard.png",
-        "/images/cmsSummary.png",
-        "/images/cmsAnalytics1.png",
-        "/images/cmsAnalytics2.png",
-        "/images/cmsAnalytics3.png"
-      ]
-    },
-    {
-      id: 5,
-      title: "Personalized Expense Tracker",
-      description:
-        "Personalized application helpful for college students to view and maintain their expenses.",
-      tech: ["Flask", "SQLite", "BootStrap"],
-      repo : "https://github.com/Vaillant06/expense-tracker",
-      images: [
-        "/images/ExpenseTrackerLanding.jpeg",
-        "/images/ExpenseTrackerRegister.jpeg",
-        "/images/ExpenseTrackerLogin.jpeg",
-        "/images/ExpenseTrackerDashboard.jpeg",
-        "/images/ExpenseTrackerAddExpense.png"
-      ]
-    }
-  ];
+import ProjectContent from "../../constants/ProjectContent"
 
-  const [selectedProject, setSelectedProject] = useState(projects[0]);
+export default function Projects() {
+
+  const [selectedProject, setSelectedProject] = useState(ProjectContent[0]);
   const detailRef = useRef(null);
 
   return (
@@ -95,7 +22,7 @@ export default function Projects() {
           </p>
 
         <div className="row g-4">
-          {projects.map((project) => (
+          {ProjectContent.map((project) => (
             <ProjectCard
               key={project.id}
               project={project}
