@@ -4,13 +4,11 @@ import { useEffect, useRef } from "react";
 export default function ScrollReveal({ children, delay = 0 }) {
   const ref = useRef(null);
   const controls = useAnimation();
-  const isInView = useInView(ref, { amount: 0.3 }); 
+  const isInView = useInView(ref, { once: true, amount: 0.1 });
 
   useEffect(() => {
     if (isInView) {
       controls.start("visible");
-    } else {
-      controls.start("hidden"); 
     }
   }, [isInView, controls]);
 

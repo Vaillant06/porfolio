@@ -1,17 +1,22 @@
 html, body {
     height: 100%;
-    scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
+}
+
+@media (min-width: 769px) {
+    html, body {
+        scroll-snap-type: y proximity;
+    }
 }
   
 section {
     scroll-snap-align: start;
-    min-height: 100vh; /* fill screen */
+    min-height: 100vh;
 }
 
 section.snap {
     scroll-snap-align: start;
     min-height: 100vh;
-  }
+}
   
   
